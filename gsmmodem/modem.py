@@ -922,7 +922,7 @@ class GsmModem(SerialComms):
                 self.smsEncoding = 'GSM'
 
             # Encode text into PDUs
-            pdus = encodeSmsSubmitPdu(destination, text, reference=self._smsRef, sendFlash=sendFlash)
+            pdus = encodeSmsSubmitPdu(destination, text, reference=self._smsRef, requestStatusReport=self.requestDelivery, sendFlash=sendFlash)
 
             # Send SMS PDUs via AT commands
             for pdu in pdus:
