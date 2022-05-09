@@ -1,7 +1,8 @@
 python-gsmmodem-async
 ===================
 
-*WIP*
+WIP
+-----
 
 This branch is work in progress. It's a take on building an async version of python-gsmmodem using https://github.com/pyserial/pyserial-asyncio
 
