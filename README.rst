@@ -1,5 +1,10 @@
-python-gsmmodem-new
+python-gsmmodem-async
 ===================
+
+*WIP*
+
+This branch is work in progress. It's a take on building an async version of python-gsmmodem using https://github.com/pyserial/pyserial-asyncio
+
 *GSM modem module for Python*
 
 python-gsmmodem is a module that allows easy control of a GSM modem attached
